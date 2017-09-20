@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 #include<graphics.h>
 #include<math.h>
 
@@ -11,9 +11,9 @@ void swap(int &x, int &y){
 
 void main(){
 	int gd = DETECT, gm = DETECT, x1, x2, y1, y1, dx, dy, p, k;
-	float m =0;
+	float m = 0;
 	
-	clrscr();
+
 	
 	printf("enter the starting point x1 & y1 = ");
 	scanf("&d&d", &x1, &y1);
@@ -61,5 +61,5 @@ void main(){
 		}
 	}
 	
-	getch();
+
 }
